@@ -29,3 +29,4 @@ def add_student(name):
     print(f"Студент {name} добавлен.")
     add_student("Марат")
 show_students()
+print("Добро пожаловать в систему учета студентов!")
