@@ -13,3 +13,13 @@ def show_students():
 
 
 show_students()
+print("Система учета студентов")
+
+def search_student(name):
+    for student in students:
+        if student.lower() == name.lower():
+            print(f"Студент найден: {student}")
+            return
+
+    print("Студент не найден")
+    search_student("Али")
