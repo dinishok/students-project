@@ -5,5 +5,11 @@ students = [
     "Алина"
 ]
 
-print("Список студентов:")
-print(students)
+
+def show_students():
+    print("Список студентов:")
+    for student in students:
+        print(student)
+
+
+show_students()
