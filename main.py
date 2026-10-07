@@ -23,3 +23,9 @@ def search_student(name):
 
     print("Студент не найден")
     search_student("Али")
+
+def add_student(name):
+    students.append(name)
+    print(f"Студент {name} добавлен.")
+    add_student("Марат")
+show_students()
